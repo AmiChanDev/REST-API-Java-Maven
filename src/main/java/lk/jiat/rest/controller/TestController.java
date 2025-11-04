@@ -17,6 +17,6 @@ public class TestController {
     @Consumes(MediaType.APPLICATION_JSON)
     public String postRequest(String input) {
         System.out.println(input);
-        return "done";
+        return input;
     }
 }
